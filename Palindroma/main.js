@@ -10,11 +10,10 @@ function polindroma(word) {
 
     var reversed = word.toUpperCase().split('').reverse().join('');
     if (reversed === word) {
-        return console.log('sono polindrome');
+        return console.log(word + ', è una parola polindroma');
     } else {
-        return console.log('NON sono polindrome');
+        return console.log(word + ', NON è una parola polindroma');
     }
-
 }
 polindroma(user_word);
 
